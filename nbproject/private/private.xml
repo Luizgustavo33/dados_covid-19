@@ -3,7 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/JONATHAN/Documents/NetBeansProjects/dados_covid-19/src/programinhasimportarcsv/PrograminhasImportarCSV.java</file>
+            <file>file:/C:/Users/JONATHAN/Documents/NetBeansProjects/dados_covid-19/src/programinhasimportarcsv/conexao_banco.java</file>
+            <file>file:/C:/Users/JONATHAN/Documents/NetBeansProjects/dados_covid-19/src/programinhasimportarcsv/importcsv.java</file>
+            <file>file:/C:/Users/JONATHAN/Documents/NetBeansProjects/dados_covid-19/src/programinhasimportarcsv/Principal.java</file>
         </group>
     </open-files>
 </project-private>
