@@ -1,0 +1,28 @@
+horario_estimado_divulgacao,status,origem,MS,data_boletim,data_coleta,state,data_dados,confirmed,deaths,date_br,boletim_de_hoje,dados_de_hoje,UF,link_painel,frequencia_prints,obs_do_link
+entre 19h e 21h,ok,ses,,2020-11-19,2020-11-19 19:10,AC,2020-11-19,33976,710,19/11/20,TRUE,hoje,AC,http://covid19.ac.gov.br/monitoramento/notificacoes/boletim,,"14/8: A Sesacre informa ainda que, a partir desta data, a lista de óbitos por Covid-19 passará a ser divulgada de segunda a sexta-feira. Os óbitos do final de semana serão informados no boletim de segunda-feira."
+,ok,ses,,2020-11-19,2020-11-19 19:11,AL,2020-11-19,93123,2308,19/11/20,TRUE,hoje,AL,http://www.alagoascontraocoronavirus.al.gov.br/,,
+,ok,ses,,2020-11-19,2020-11-19 19:29,AM,2020-11-19,172118,4741,19/11/20,TRUE,hoje,AM,http://www.saude.am.gov.br/painel/corona/,,
+,ok,ses,,2020-11-19,2020-11-19 19:11,AP,2020-11-19,55885,785,19/11/20,TRUE,hoje,AP,,,
+a partir das 18h?,ok,ses,,2020-11-19,2020-11-19 19:12,BA,2020-11-19,380294,8038,19/11/20,TRUE,hoje,BA,https://bi.saude.ba.gov.br/transparencia/,,
+"dia todo, até 18h (depois para)",ok,ses,,2020-11-19,2020-11-19 19:50,CE,2020-11-19,289550,9473,19/11/20,TRUE,hoje,CE,https://indicadores.integrasus.saude.ce.gov.br/indicadores/indicadores-coronavirus/coronavirus-ceara,,
+2020-11-15,ok,ses,,2020-11-19,2020-11-19 19:50,DF,2020-11-19,222282,3852,19/11/20,TRUE,hoje,DF,https://covid19.ssp.df.gov.br/extensions/covid19/covid19.html#/,,
+,ok,ses,,2020-11-19,2020-11-19 19:13,ES,2020-11-19,175300,4082,19/11/20,TRUE,hoje,ES,https://coronavirus.es.gov.br/painel-covid-19-es,,dados até às 17h (segundo o painel)
+2020-11-02,ok,ses,,2020-11-19,2020-11-19 19:50,GO,2020-11-19,272094,6201,19/11/20,TRUE,hoje,GO,https://extranet.saude.go.gov.br/pentaho/api/repos/:coronavirus:paineis:painel.wcdf/generatedContent,,
+,ok,ses,,2020-11-19,2020-11-19 19:13,MA,2020-11-19,190641,4210,19/11/20,TRUE,hoje,MA,https://www.corona.ma.gov.br/,,
+publica cedo,ok,ses,,2020-11-19,2020-11-19 19:14,MG,2020-11-19,390337,9648,19/11/20,TRUE,hoje,MG,http://coronavirus.saude.mg.gov.br/painel,,
+,ok,ses,,2020-11-19,2020-11-19 19:15,MS,2020-11-18,90229,1705,18/11/20,TRUE,ontem,MS,http://mais.saude.ms.gov.br/sense/app/51c38346-b65d-4f3e-8a80-5111a7a9da76/overview,,divulga dados do dia anterior
+estamos antecipando por whats,ok,ses,,2020-11-19,2020-11-19 19:16,MT,2020-11-19,154438,4073,19/11/20,TRUE,hoje,MT,http://www.saude.mt.gov.br/painelcovidmt/,,
+jessica pode subir 19h,ok,ses,,2020-11-19,2020-11-19 19:16,PA,2020-11-19,264810,6855,19/11/20,TRUE,hoje,PA,https://www.covid-19.pa.gov.br/#/,,
+,ok,ses,,2020-11-19,2020-11-19 19:17,PB,2020-11-19,140982,3232,19/11/20,TRUE,hoje,PB,https://superset.plataformatarget.com.br/superset/dashboard/55/,,
+,ok,ses,,2020-11-19,2020-11-19 19:15,PE,2020-11-19,173624,8890,19/11/20,TRUE,hoje,PE,https://dados.seplag.pe.gov.br/apps/corona.html,,"divulga dados do dia anterior, mas estamos pondo o mesmo dia (por enquanto)"
+às vezes atrasa,ok,ses,,2020-11-19,2020-11-19 19:30,PI,2020-11-19,122007,2568,19/11/20,TRUE,hoje,PI,http://coronavirus.pi.gov.br/,,
+,ok,ses,,2020-11-19,2020-11-19 19:13,PR,2020-11-19,248853,5827,19/11/20,TRUE,hoje,PR,,,"somar dados dos residentes fora do PR, na ultima pagina do boletim"
+,ok,ses,,2020-11-19,2020-11-19 19:12,RJ,2020-11-19,334514,21806,19/11/20,TRUE,hoje,RJ,http://painel.saude.rj.gov.br/monitoramento/covid19.html,,
+estamos antecipando por whats,ok,ses,,2020-11-19,2020-11-19 19:12,RN,2020-11-18,84909,2661,18/11/20,TRUE,ontem,RN,https://portalcovid19.saude.rn.gov.br/,,divulga dados do dia anterior
+,ok,ses,,2020-11-19,2020-11-19 19:11,RO,2020-11-19,76377,1513,19/11/20,TRUE,hoje,RO,http://covid19.sesau.ro.gov.br/,,
+,ok,ses,,2020-11-18,2020-11-19 19:10,RR,2020-11-18,61245,711,18/11/20,FALSE,ontem,RR* ,https://roraimacontraocorona.rr.gov.br/transparencia/,,conferir a data dos dados no painel da coleta
+publica cedo,ok,ses,,2020-11-19,2020-11-19 19:09,RS,2020-11-19,289923,6410,19/11/20,TRUE,hoje,RS,http://ti.saude.rs.gov.br/covid19/,,
+jessica e nuno podem subir 19h,ok,ses,,2020-11-19,2020-11-19 19:07,SC,2020-11-19,311393,3405,19/11/20,TRUE,hoje,SC,https://app.powerbi.com/view?r=eyJrIjoiNDMyMDhkMWItZTI3NC00ZTkzLWJiNTEtOWE1YWQxZjg4MjI2IiwidCI6ImExN2QwM2ZjLTRiYWMtNGI2OC1iZDY4LWUzOTYzYTJlYzRlNiJ9,,
+https://todoscontraocorona.net.br/,ok,ses,,2020-11-19,2020-11-19 19:02,SE,2020-11-19,86612,2270,19/11/20,TRUE,hoje,SE,https://todoscontraocorona.net.br/,,"dados atualizados pelo whatsapp de andre carvalho, assessor comunicação da SES SE: 7988072288"
+,ok,ses,,2020-11-19,2020-11-19 19:05,SP,2020-11-19,1191290,41074,19/11/20,TRUE,hoje,SP,https://www.seade.gov.br/coronavirus/,,
+,ok,ses,,2020-11-19,2020-11-19 19:04,TO,2020-11-18,78878,1146,18/11/20,TRUE,ontem,TO,http://integra.saude.to.gov.br/covid19/InformacoesEpidemiologicas,,divulga dados do dia anterior

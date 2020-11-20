@@ -1,0 +1,17 @@
+CREATE TABLE covid_19 (
+  idcovid_19 INTEGER   NOT NULL ,
+  hotario _estimado_divulgacao VARCHAR(100)    ,
+  status_2 VARCHAR(30)    ,
+  origem  VARCHAR(6)    ,
+  ms VARCHAR(3)    ,
+  data_boletim DATE    ,
+  data_coleta   DATETIME    ,
+  state VARCHAR(4)    ,
+  date_dados DATE    ,
+  confirmed INTEGER    ,
+  deaths VARCHAR(100)      ,
+PRIMARY KEY(idcovid_19));
+
+
+
+
