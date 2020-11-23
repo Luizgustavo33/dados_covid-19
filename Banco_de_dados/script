@@ -1,16 +1,19 @@
 CREATE TABLE covid_19 (
   idcovid_19 INTEGER   NOT NULL ,
-  hotario _estimado_divulgacao VARCHAR(100)    ,
-  status_2 VARCHAR(30)    ,
-  origem  VARCHAR(6)    ,
-  ms VARCHAR(3)    ,
-  data_boletim DATE    ,
-  data_coleta   DATETIME    ,
+  city VARCHAR(100)    ,
+  city_ibge_code INT    ,
+  epidemiological_week   INT    ,
+  estimated_population   INT    ,
+  estimated_population_2019   INT    ,
+  is_last   VARCHAR(15)    ,
   state VARCHAR(4)    ,
-  date_dados DATE    ,
-  confirmed INTEGER    ,
-  deaths VARCHAR(100)      ,
+  is_repeated   DATE    ,
+  last_available_confirmed   INT    ,
+  deaths VARCHAR(100)    ,
+  last_available_confirmed_per_100k_inhabitants   DOUBLE    ,
+  last_available_date   DATE      ,
 PRIMARY KEY(idcovid_19));
+
 
 
 
