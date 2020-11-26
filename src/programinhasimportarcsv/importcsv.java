@@ -18,6 +18,7 @@ public class importcsv {
     
     /**
      * @param args the command line arguments
+     * @throws java.sql.SQLException
      */
     public static void main(String[] args) throws SQLException {
             
@@ -53,34 +54,51 @@ public class importcsv {
                 //imprime a coluna que quiser
 
                System.out.println("");
-            System.out.printf("%-50s",valoresEntreVirgulas[0]);    
-            System.out.printf("%-50s",valoresEntreVirgulas[1]);
-            System.out.printf("%-50s",valoresEntreVirgulas[2]);
-            System.out.printf("%-50s",valoresEntreVirgulas[3]);
-            System.out.printf("%-50s",valoresEntreVirgulas[4]);
-            System.out.printf("%-50s",valoresEntreVirgulas[5]);
-            System.out.printf("%-50s",valoresEntreVirgulas[6]);
-            System.out.printf("%-50s",valoresEntreVirgulas[7]);
-            System.out.printf("%-50s",valoresEntreVirgulas[8]);
-            System.out.printf("%-50s",valoresEntreVirgulas[9]);
-            System.out.printf("%-50s",valoresEntreVirgulas[10]);
-            System.out.printf("%-50s",valoresEntreVirgulas[11]);
-            System.out.printf("%-50s",valoresEntreVirgulas[12]);
-            System.out.printf("%-50s",valoresEntreVirgulas[13]);
-            System.out.printf("%-50s",valoresEntreVirgulas[14]);
-            System.out.printf("%-50s",valoresEntreVirgulas[15]);
-            System.out.printf("%-50s",valoresEntreVirgulas[16]);
-            System.out.printf("%-50s",valoresEntreVirgulas[17]);
+            System.out.printf("%-30s",valoresEntreVirgulas[0]);    
+            System.out.printf("%-30s",valoresEntreVirgulas[1]);
+            System.out.printf("%-30s",valoresEntreVirgulas[2]);
+            System.out.printf("%-30s",valoresEntreVirgulas[3]);
+            System.out.printf("%-30s",valoresEntreVirgulas[4]);
+            System.out.printf("%-30s",valoresEntreVirgulas[5]);
+            System.out.printf("%-30s",valoresEntreVirgulas[6]);
+            System.out.printf("%-30s",valoresEntreVirgulas[7]);
+            System.out.printf("%-30s",valoresEntreVirgulas[8]);
+            System.out.printf("%-30s",valoresEntreVirgulas[9]);
+            System.out.printf("%-30s",valoresEntreVirgulas[10]);
+            System.out.printf("%-30s",valoresEntreVirgulas[11]);
+            System.out.printf("%-30s",valoresEntreVirgulas[12]);
+            System.out.printf("%-30s",valoresEntreVirgulas[13]);
+            System.out.printf("%-30s",valoresEntreVirgulas[14]);
+            System.out.printf("%-30s",valoresEntreVirgulas[15]);
+            System.out.printf("%-30s",valoresEntreVirgulas[16]);
+            System.out.printf("%-30s",valoresEntreVirgulas[17]);
             
             String city = valoresEntreVirgulas[0];
             String city_ibge_code = valoresEntreVirgulas[1];
             String date = valoresEntreVirgulas[2];
             String epidemiological_week = valoresEntreVirgulas[3];
             String estimated_population  = valoresEntreVirgulas[4];
+            String estimated_population_2019 = valoresEntreVirgulas[5];
+            String is_last = valoresEntreVirgulas[6];
+            String is_repeated = valoresEntreVirgulas[7];
+            String last_available_confirmed = valoresEntreVirgulas[8]; 
+            String last_available_confirmed_per_100k_inhabitants = valoresEntreVirgulas[9];
+            String last_available_date = valoresEntreVirgulas[10];
+            String last_available_death_rate = valoresEntreVirgulas[11];
+            String last_available_deaths = valoresEntreVirgulas[12];
+            String order_for_place = valoresEntreVirgulas[13];
+            String place_type = valoresEntreVirgulas[14];
+            String state = valoresEntreVirgulas[15];
+            String new_confirmed = valoresEntreVirgulas[16];
+            String new_deaths = valoresEntreVirgulas[17];
+
         
             
             ler_banco ler = new ler_banco();
-        ler_banco.connect(city, city_ibge_code, date, epidemiological_week,estimated_population );     
+        ler_banco.connect(city, city_ibge_code,	date,epidemiological_week,estimated_population,estimated_population_2019,
+                is_last,is_repeated,last_available_confirmed,last_available_confirmed_per_100k_inhabitants,
+                last_available_date, last_available_death_rate,last_available_deaths,
+                order_for_place,place_type,state,new_confirmed,new_deaths);     
             
             
             contar++;
