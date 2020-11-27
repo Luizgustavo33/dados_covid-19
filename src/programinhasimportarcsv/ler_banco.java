@@ -46,7 +46,7 @@ public class ler_banco {
                     + " date DATE,"
                     + " epidemiological_week INT,"
                     + "estimated_population INT,"
-                    + "estimated_population_2019 INT,"
+                    + "estimated_population_2019 DOUBLE,"
                     + "is_last VACHAR(20),"
                     +"is_repeated VARCHAR(30),"
                     +"last_available_confirmed INT,"
@@ -61,34 +61,33 @@ public class ler_banco {
                     +"new_deaths INT"
                         + ")");
             
-           statement.execute("INSERT INTO teste ("
-                    + "city,"
-                    + "	city_ibge_code,"
-                    + "	date,"
-                    + "	epidemiological_week,"
-                    + "	estimated_population,"
-                    + "	estimated_population_2019,"
-                    + "	is_last,"
-                    + "	is_repeated,"
-                    + "	last_available_confirmed,"
-                    + "	last_available_confirmed_per_100k_inhabitants,"
-                    + "	last_available_date,"
-                    + "	last_available_death_rate,"
-                    + "	last_available_deaths,"
-                    + "	order_for_place	place_type,"
-                    + "	state,"
-                    + "	new_confirmed,"
-                    + "	new_deaths) " 
-                    +"VALUES ('"+city+"',"
+         
+            
+            statement.execute("INSERT INTO teste (city,"
+                    + "city_ibge_code,"
+                    + "date,"
+                    + "epidemiological_week,estimated_population,"
+                    + "estimated_population_2019,"
+                    + "is_last,"
+                    + "is_repeated,"
+                    + "last_available_confirmed,"
+                    + "last_available_confirmed_per_100k_inhabitants,"
+                    + "last_available_date,last_available_death_rate,"
+                    + "last_available_deaths,"
+                    + "order_for_place,"
+                    + "place_type,"
+                    + "state,"
+                    + "new_confirmed,new_deaths) "
+                    + "VALUES ('"+city+"',"
                             + "'"+city_ibge_code+"',"
                             + "'"+date+"',"
                             + "'"+epidemiological_week+"',"
-                            + "'"+estimated_population+"' "
-                            + "'"+estimated_population_2019+"',"                                        
-                            + "'"+is_last+"',"
-                            + "'"+is_repeated+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
                             + "'"+last_available_confirmed+"',"
-                            + "'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
                             + "'"+last_available_date+"',"
                             + "'"+last_available_death_rate+"',"
                             + "'"+last_available_deaths+"',"
@@ -96,21 +95,8 @@ public class ler_banco {
                             + "'"+place_type+"',"
                             + "'"+state+"',"
                             + "'"+new_confirmed+"',"
-                            + "'"+new_deaths+"' )" );
-
-              /*    statement.execute("CREATE TABLE IF NOT EXISTS teste ( city VARCHAR(20),"
-                    + "city_ibge_code INT,"
-                    + " date DATE,"
-                    + " epidemiological_week INT,"
-                    + "estimated_population INT)");
-            
-            statement.execute("INSERT INTO teste (city,city_ibge_code,date,epidemiological_week,estimated_population) "
-                    + "VALUES ('"+city+"',"
-                            + "'"+city_ibge_code+"',"
-                            + "'"+date+"',"
-                            + "'"+epidemiological_week+"',"
-                            + "'"+estimated_population+"' ) ");
+                            + "'"+new_deaths+"') ");
                                                 
-                */    
+                  
     }
 }

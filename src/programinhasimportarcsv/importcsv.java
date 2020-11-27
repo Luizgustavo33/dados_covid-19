@@ -39,10 +39,11 @@ public class importcsv {
             
             
             //ignora a primeira linha do arquivo
-            //leitor.nextLine();
+            leitor.nextLine();
             int contar = 0;
             //percorre todo o arquivo
-            while(leitor.hasNext() && contar <= numero  ){
+            while(leitor.hasNext() && contar <= numero  ){         
+                
                 
                 //recebe cada linha do arquivo
                 linhasDoArquivo = leitor.nextLine();
@@ -100,11 +101,12 @@ public class importcsv {
                 last_available_date, last_available_death_rate,last_available_deaths,
                 order_for_place,place_type,state,new_confirmed,new_deaths);     
             
-            
-            contar++;
+                
+             
+               contar++;
             }
+   
        
-        
         
         
         

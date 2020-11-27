@@ -15,7 +15,7 @@ import java.sql.SQLException;
  */
 public class conexao_banco {
 
-    private final String DATABASE_URL = "jdbc:sqlite:C:\\Users\\JONATHAN\\Documents\\NetBeansProjects\\dados_covid-19\\Banco_de_dados\\teste.db" +
+    public final String DATABASE_URL = "jdbc:sqlite:C:\\Users\\JONATHAN\\Documents\\NetBeansProjects\\dados_covid-19\\Banco_de_dados\\teste.db" +
 "";
 
     public Connection getConnection() {
