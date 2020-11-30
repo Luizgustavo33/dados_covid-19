@@ -47,7 +47,7 @@ class Selecao {
      * select all rows in the warehouses table
      */
     public void selectAll(){
-        String sql = "SELECT city FROM warehouses";
+        String sql = "SELECT teste FROM city";
         
         try (Connection conn = this.connect();
              Statement stmt  = conn.createStatement();

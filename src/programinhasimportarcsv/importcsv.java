@@ -7,7 +7,10 @@ package programinhasimportarcsv;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -20,8 +23,10 @@ public class importcsv {
      * @param args the command line arguments
      * @throws java.sql.SQLException
      */
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException, IOException {
             
+                
+        
        //abre um arquivo e cria um file
        File arquivoCSV = new File("C:\\Users\\JONATHAN\\Documents\\NetBeansProjects\\dados_covid-19\\caso_full.csv");
         Scanner entrada = new Scanner(System.in);
@@ -100,10 +105,206 @@ public class importcsv {
                 is_last,is_repeated,last_available_confirmed,last_available_confirmed_per_100k_inhabitants,
                 last_available_date, last_available_death_rate,last_available_deaths,
                 order_for_place,place_type,state,new_confirmed,new_deaths);     
-            
+         
+          
+               contar++; 
+                      
+           
+               //CSVUtils csvfile = new CSVUtils
+             String csvFile = "C:\\Users\\JONATHAN\\Documents\\NetBeansProjects\\dados_covid-19\\Banco_de_dados\\Export_csv.csv";
+                try (FileWriter writer = new FileWriter(csvFile)) {
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    CSVUtils.writeLine(writer, Arrays.asList("'"+city+"',"
+                            + "'"+city_ibge_code+"',"
+                            + "'"+date+"',"
+                            + "'"+epidemiological_week+"',"
+                            + "'"+estimated_population+"',"
+                            + "'"+estimated_population_2019+"',"
+                            +"'"+is_last+"',"
+                            +"'"+is_repeated+"',"
+                            + "'"+last_available_confirmed+"',"
+                            +"'"+last_available_confirmed_per_100k_inhabitants+"',"
+                            + "'"+last_available_date+"',"
+                            + "'"+last_available_death_rate+"',"
+                            + "'"+last_available_deaths+"',"
+                            + "'"+order_for_place+"',"
+                            + "'"+place_type+"',"
+                            + "'"+state+"',"
+                            + "'"+new_confirmed+"',"
+                            + "'"+new_deaths+"',") );
+                    
+                    
+                    
+                    writer.flush();
+                    writer.close(); 
                 
-             
-               contar++;
+                }
+        
+            
             }
    
        
